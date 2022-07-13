@@ -1,0 +1,46 @@
+.gamecomp {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 40px 50px 50px 50px;
+}
+
+.bg-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bg-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.tr {
+    display: none;
+}
+
+.g{
+    background: white;
+    padding: 30px;
+    border-radius: 50%;
+    border: 1.5rem solid;
+    cursor: pointer;
+}
+
+.s {
+    border-color:hsl(40, 84%, 53%) ;
+    box-shadow: 1px 5px hsl(39, 89%, 49%),1px 5px inset hsl(217, 16%, 45%);
+}
+
+.p {
+    border-color: hsl(230, 89%, 65%);
+    box-shadow: 1px 5px hsl(230, 89%, 62%),1px 5px inset hsl(217, 16%, 45%);
+}
+
+.r {
+    border-color: hsl(349, 70%, 56%) ;
+    box-shadow: 1px 5px hsl(349, 71%, 52%),1px 5px inset hsl(217, 16%, 45%);
+
+}

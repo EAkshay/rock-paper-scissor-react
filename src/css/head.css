@@ -1,0 +1,41 @@
+.gamehead {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    border: 2px solid hsl(217, 16%, 45%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.rps h1 {
+    margin: 0em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    line-height: 25px;
+    color: #fff;
+}
+
+.scorecomp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.scorecomp h3 {
+    font-weight: 600;
+    color: hsl(229, 64%, 46%);
+    margin: 0;
+    font-size: 16px;
+
+}
+
+.scorecomp h1 {
+    font-size: 40px;
+    margin: 0;
+    color: hsl(229, 25%, 31%);
+}
