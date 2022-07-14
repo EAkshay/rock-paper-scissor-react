@@ -1,0 +1,26 @@
+.main-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.small-con {
+    padding: 20px ;
+    width: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-con h1 {
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.big-con {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}

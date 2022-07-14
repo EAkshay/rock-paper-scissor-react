@@ -1,0 +1,33 @@
+.rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 20px 0px 20px;
+    transform: translate(130%,50%);
+    background: white;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.rule-1 {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rule-1 h1 {
+    margin: 0;
+}
+
+.rule-1 img {
+    cursor: pointer;
+}
+
+.img {
+    transform: scale(0.7);
+}
