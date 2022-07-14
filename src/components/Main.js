@@ -13,17 +13,19 @@ import { RpsList } from './rpsimg'
 const Main = () => {
   const imgChange = useSelector((states) => states.imgH.value)
   const dispatch = useDispatch();
-  const [initImg,setImg] = useState(0)
+  const [initImg, setImg] = useState(0)
+  const [winR,setWinR] = useState(0)
   const imgHandler = (e) => {
     dispatch(rpsClick({ click: false }))
     setImg(e.target.attributes.imd.value)
-    console.log(e.target.attributes.imd.value)
+    setWinR(e.target.attributes.wincom.value)
   }
+  const [score,setScore] = useState(0)
 
   return (
       <div className='main'>
-          <Head />
-          {imgChange.click ? <Gamecomp imgHandler={imgHandler} /> : <RpsList initImg={ initImg } /> }
+          <Head score={score}  />
+          {imgChange.click ? <Gamecomp imgHandler={imgHandler} /> : <RpsList score={score} setScore={setScore} wincom={winR} initImg={ initImg } /> }
           <Fotter />
     </div>
   )

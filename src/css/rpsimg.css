@@ -7,7 +7,7 @@
 
 .small-con {
     padding: 20px ;
-    width: 50%;
+    width: 65%;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -18,9 +18,32 @@
     letter-spacing: 4px;
 }
 
+
+
 .big-con {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 60%;
     align-items: center;
+}
+
+.con-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.con-3 h1 {
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.con-3 button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    letter-spacing: 3px;
+    cursor: pointer;
+    color: rgb(161, 161, 9);
+    
 }

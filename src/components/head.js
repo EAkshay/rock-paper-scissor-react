@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/head.css'
 
-const Head = () => {
+const Head = ({score}) => {
   return (
       <div className='gamehead'>
           <div className="rps">
@@ -11,7 +11,7 @@ const Head = () => {
           </div>
           <div className="scorecomp">
               <h3>SCORE</h3>
-              <h1>12</h1>
+              <h1>{score}</h1>
           </div>
       </div>
   )

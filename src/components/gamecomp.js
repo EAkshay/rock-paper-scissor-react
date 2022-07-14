@@ -10,15 +10,15 @@ const Gamecomp = ({imgHandler}) => {
       <div className='gamecomp'>
           <div className="bg-1">
               <div className="g p">
-                <img imd="1" onClick={imgHandler} src={paper} alt="paper" />
+                <img wincom='1'  imd="2" onClick={imgHandler} src={paper} alt="paper" />
               </div>
               <div  className="g s">
-                <img imd="2" onClick={imgHandler} src={scissors} alt="scissors" />
+                <img imd="3" wincom='2' onClick={imgHandler} src={scissors} alt="scissors" />
               </div>
           </div>
           <div className="bg-2">
               <div  className="g r">
-                <img imd='3' onClick={imgHandler} src={rock} alt="rock" />
+                <img imd='1' wincom='0' onClick={imgHandler} src={rock} alt="rock" />
               </div>
           </div>
           <div className="tr">
