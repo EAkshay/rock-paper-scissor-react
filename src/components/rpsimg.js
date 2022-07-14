@@ -10,18 +10,8 @@ export const RpsList = ({ score,setScore,initImg,wincom }) => {
         rock,paper,scissors
     ]
 
-
-    const [winner, setWinner] = useState(false);
-    const [lose, setLose] = useState(false);
-    const [tie, setTie] = useState(false);
-
     const randImg = Math.floor(Math.random() * rpsimgList.length)
-    const rand2 = randImg;
-    const initimg2 = initImg;
     const rand3 = randImg;
-
-    console.log(wincom,rand2)
-
 
     return (
         <div className='main-con'>

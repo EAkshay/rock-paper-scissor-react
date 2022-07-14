@@ -20,7 +20,7 @@ const Main = () => {
     setImg(e.target.attributes.imd.value)
     setWinR(e.target.attributes.wincom.value)
   }
-  const [score,setScore] = useState(0)
+  const [score,setScore] = useState(12)
 
   return (
       <div className='main'>
